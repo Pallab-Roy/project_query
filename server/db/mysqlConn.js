@@ -2,7 +2,7 @@ var mysql = require('mysql')
 var MsqConn = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'password',
+  password: '',
   database: 'quora',
   multipleStatements: true
 });
